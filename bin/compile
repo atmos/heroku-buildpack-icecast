@@ -1,5 +1,12 @@
 #!/bin/sh -e
 
+AWESOME_VM_BINARY="http://atmos-icecast.herokuapp.com/output/5e073a29-6486-4fd6-b42f-04fed7d3d5d2"
+AWESOME_VM_VENDOR="vendor/icecast"
+
+# vendor awesome-vm
+mkdir -p $1/$AWESOME_VM_VENDOR
+curl $AWESOME_VM_BINARY -o - | tar -xz -C $1/$AWESOME_VM_VENDOR -f -
+
 indent() {
   sed -u 's/^/       /'
 }
