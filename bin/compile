@@ -1,0 +1,14 @@
+#!/bin/sh -e
+
+indent() {
+  sed -u 's/^/       /'
+}
+
+echo "-----> Found an icecast.xml file"
+
+if [ ! -s $1/config/icecast.xml ]; then
+  echo "icecast.xml was empty"
+  exit 1
+else
+  exit 0
+fi

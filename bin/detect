@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+if [ -f $1/config/icecast.xml ]; then
+  echo "Icecast Application Detected"
+  exit 0
+else
+  exit 1
+fi

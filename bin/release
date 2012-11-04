@@ -1,0 +1,7 @@
+#!/bin/sh -e
+
+cat << EOF
+---
+default_process_types:
+  web: icecast -c config/icecast.xml
+EOF
