@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-AWESOME_VM_BINARY="http://atmos-libogg.herokuapp.com/output/f4379cf2-9ee8-4726-8098-010d32c808bb"
+AWESOME_VM_BINARY="http://atmos-libogg.herokuapp.com/output/1b7b793f-b9bd-4a84-9ff9-bae2b8693157"
 AWESOME_VM_VENDOR="vendor/icecast"
 
 # vendor awesome-vm
