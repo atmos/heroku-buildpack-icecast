@@ -19,7 +19,7 @@ Installation
   * Supply the `BUILDPACK_URL` env variable 
 
 ```
-heroku config:add BUILDPACK_URL="BUILDPACK_URL: https://github.com/atmos/heroku-buildpack-icecast.git"
+heroku config:add BUILDPACK_URL="https://github.com/atmos/heroku-buildpack-icecast.git"
 ```
 
 Modify your configuration file to suit your needs.  Enjoi.
